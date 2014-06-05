@@ -1,0 +1,11 @@
+{
+  "name": "TODO",
+  "version": "0.0.1",
+  "dependencies": {
+    "q": "0.9.7",
+    "font-awesome": "~4.0.0",
+    "zepto": "~1.0.0",
+    "lodash": "~2.2.0",
+    "mopidy": "git@github.com:mopidy/mopidy.git#v0.16.1"
+  }
+}

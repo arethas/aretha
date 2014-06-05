@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>TODO</title>
+
+  <link rel="stylesheet" media="screen" href="styles/app.css">
+</head>
+<body>
+  <h1>TODO</h1>
+
+  <button type="button" data-playback-action="previous">
+    <span class="fa fa-backward fa-lg"></span>
+  </button>
+
+  <button type="button" data-playback-action="play">
+    <span class="fa fa-play fa-lg"></span>
+  </button>
+
+  <button type="button" data-playback-action="pause">
+    <span class="fa fa-pause fa-lg"></span>
+  </button>
+
+  <button type="button" data-playback-action="stop">
+    <span class="fa fa-stop fa-lg"></span>
+  </button>
+
+  <button type="button" data-playback-action="next">
+    <span class="fa fa-forward fa-lg"></span>
+  </button>
+
+  <ul id="playlists"></ul>
+
+  <ul id="playlist"></ul>
+
+  <script type="text/javascript" src="scripts/vendors/q/q.js"></script>
+  <script type="text/javascript" src="scripts/vendors/zepto/zepto.js"></script>
+  <script type="text/javascript" src="scripts/vendors/lodash/lodash.js"></script>
+  <script type="text/javascript" src="scripts/vendors/mopidy/mopidy.js"></script>
+
+  <script type="text/javascript" src="scripts/app.js"></script>
+
+  <script type="text/javascript" src="http://localhost:35729/livereload.js?snipver=1"></script>
+</body>
+</html>
